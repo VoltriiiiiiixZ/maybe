@@ -6,7 +6,9 @@ CORS(app)  # autorise les requêtes cross-origin
 
 # Utilisateurs fictifs (pour test)
 users = {
-    "entrepriseX": "voici"
+    "entrepriseX": "voici",
+    "Diego": "1999",
+    "Aaron": "1999",
 }
 
 @app.route('/login', methods=['POST'])
